@@ -3,11 +3,11 @@ body, html {
 	color:#fff;
 	font-family:sans-serif;
 	text-align:center;
-	height: 100%;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	overflow: auto;
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0;
+	overflow:auto;
 }
 h1,p,.logo {
 	margin-top:25px;
@@ -37,7 +37,7 @@ img.logo {
 .impressum > * {
 	font-size:12px;
 	margin:auto;
-	margin-top:20px;
+	margin-top:25px;
 	width:50%;
 }
 .impressum h1 {
