@@ -1,28 +1,53 @@
 body {
 	background-color:#212529;
 	color:#fff;
-	font-family:arial,helvetica,sans-serif;
+	font-family:sans-serif;
 	text-align:center;
 }
-
+h1,p,.logo {
+	margin-top:25px;
+}
 h1 {
 	font-size:30px;
 	font-weight:bold;
 }
-
 p {
-	font-size:18px;
+	font-size:15px;
 }
-
 a {
 	font-weight:bold;
 	text-decoration:none;
 }
-
 a:hover {
 	text-decoration:underline;
 }
-
 a:visited {
 	color:#fff;
+}
+img.logo {
+	border-radius:50%;
+	width:120px;
+	height:120px;
+}
+.impressum > * {
+	font-size:12px;
+	margin:auto;
+	margin-top:20px;
+	width:50%;
+}
+.impressum h1 {
+	font-size:20px;
+}
+.impressum h2 {
+	font-size:18px;
+}
+.footer {
+	position:absolute;
+	bottom:0;
+	right:0;
+    left:0;
+	margin:25px;
+	font-size:8px;
+	font-weight:normal;
+	color:#525b65 !important;
 }
