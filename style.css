@@ -22,30 +22,42 @@ p {
 a {
 	font-weight:bold;
 	text-decoration:none;
-	color:#fff !important;
+	color:#fff;
 }
 a:hover {
 	text-decoration:underline;
+}
+a.link {
+	display:inline-block;
+	background-color:#ddd;
+	color:#000;
+	padding:12px 18px;
+	border-radius:50px;
+	margin-top:10px;
+	text-decoration:none;
+}
+a.link:hover {
+	background-color:#fff;
 }
 img.logo {
 	border-radius:50%;
 	width:120px;
 	height:120px;
 }
-.impressum > * {
+#impressum > * {
 	font-size:12px;
 	margin:auto;
 	margin-top:25px;
 	margin-bottom:25px;
 	max-width:1000px;
 }
-.impressum h1 {
+#impressum h1 {
 	font-size:20px;
 }
-.impressum h2 {
+#impressum h2 {
 	font-size:18px;
 }
-.footer {
+#footer {
 	position:absolute;
 	bottom:25px;
 	left:0;
