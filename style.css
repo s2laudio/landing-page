@@ -22,12 +22,10 @@ p {
 a {
 	font-weight:bold;
 	text-decoration:none;
+	color:#fff !important;
 }
 a:hover {
 	text-decoration:underline;
-}
-a:visited {
-	color:#fff;
 }
 img.logo {
 	border-radius:50%;
