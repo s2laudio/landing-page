@@ -1,5 +1,5 @@
 body, html {
-	background-color:#24282B; /*210° 17% 17%**/
+	background-color:#22272B; /*210° 21% 17%**/
 	color:#fff;
 	font-family:sans-serif;
 	text-align:center;
@@ -33,7 +33,7 @@ a:hover {
 a.link {
 	display:inline-block;
 	background-color:#ddd;
-	color:#0E1011; /*210° 17% 7%*/
+	color:#0D0F11; /*210° 21% 7%*/
 	padding:12px 18px;
 	border-radius:50px;
 	margin-top:12px;
@@ -69,5 +69,5 @@ img.logo {
 	right:0;
 	font-size:8px;
 	font-weight:normal;
-	color:#555E66 !important; /*210° 17% 40%*/
+	color:#515C66 !important; /*210° 21% 40%*/
 }
